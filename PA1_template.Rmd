@@ -72,7 +72,7 @@ qplot( as.numeric(names(intervalActivity)),intervalActivity, geom="line",
 
 ```{r}
 maxSteps <- max(intervalActivity)
-intervalName <- which(intervalActivity==maxSteps)
+intervalName <- names(which(intervalActivity==maxSteps))
 ```
 
 The average max number of steps is **`r maxSteps `** which is for the interval **`r intervalName `** across all days.

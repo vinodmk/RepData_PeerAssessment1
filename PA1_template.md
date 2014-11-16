@@ -89,10 +89,10 @@ qplot( as.numeric(names(intervalActivity)),intervalActivity, geom="line",
 
 ```r
 maxSteps <- max(intervalActivity)
-intervalName <- which(intervalActivity==maxSteps)
+intervalName <- names(which(intervalActivity==maxSteps))
 ```
 
-The average max number of steps is **206.1698113** which is for the interval **104** across all days.
+The average max number of steps is **206.1698113** which is for the interval **835** across all days.
 
 ## Imputing missing values
 Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
