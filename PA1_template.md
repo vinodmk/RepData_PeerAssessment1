@@ -160,4 +160,6 @@ ggplot(data=avgSteps,aes(y=steps,x=interval,colour=weekend)) + geom_line() +
 ```
 
 ![](./PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
-From the char its clear that there is more walking around on weekends when comared to weekdays.
+   
+From the chart its clear that there is more walking around on weekends when comared to weekdays.
+

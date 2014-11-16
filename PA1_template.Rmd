@@ -134,4 +134,6 @@ ggplot(data=avgSteps,aes(y=steps,x=interval,colour=weekend)) + geom_line() +
     xlab("5-minute interval") + ylab("Number of steps") +
     theme(legend.position="none")
 ```
-From the char its clear that there is more walking around on weekends when comared to weekdays.
+   
+From the chart its clear that there is more walking around on weekends when comared to weekdays.
+
